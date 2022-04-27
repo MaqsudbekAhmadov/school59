@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Gothic+A1:wght@200&family=Inter:wght@200&family=Karla:wght@200&family=Libre+Bodoni:ital@1&family=Neonderthaw&family=Nunito:wght@200&family=Old+Standard+TT&family=Open+Sans:wght@300&family=Palette+Mosaic&family=Poppins:wght@100;200&family=Prosto+One&family=Red+Hat+Mono&family=Roboto:wght@100&family=Rubik+Beastly&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.desktop{
+    width: 100%;
+    height: 2000px;
+    background-color: #fff;
+}
+
+.navbar{
+    width: 1440px;
+    height: 103px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>img{
+    margin-left: 84px;
+}
+
+.navbar>ul{
+    margin-left: 440px;
+    display: flex;
+}
+
+.navbar>ul>li{
+    padding-left: 20px;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.navbar>ul>li>a{
+    color: #585858;
+    text-decoration: none;
+}
+
+.signup{
+    width: 183px;
+    height: 48px;
+    border-radius: 10px;
+    background: #F4D011;
+    border: none;
+    margin-left: 95px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.school_image{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.school_image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about_text_school{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_school{
+    padding-top: 50px;
+}
+
+.images>img{
+    width: 700px;
+    margin-top: 50px;
+    height: 550px;
+}
+
+.footer{
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background-color: cadetblue;
+}
+
+.footer>h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+}
+
+.footer>h1>span{
+    color: crimson;
+}
+
+.footer>p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.footer_collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.item{
+    padding-left: 30px;
+    font-size: 27px;
+    padding-top: 20px;
+}
+
+
+.item>a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer>p:last-child{
+    text-align: center;
+    padding-top: 33px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
